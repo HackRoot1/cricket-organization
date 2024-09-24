@@ -87,7 +87,7 @@ const Login = () => {
                                 </form>
                                 <div className="flex items-center justify-center gap-3">
                                     <span>Don't have an account?</span>
-                                    
+
                                     <Link
                                         to="/register"
                                         className="text-blue-700 font-bold"

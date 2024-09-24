@@ -9,9 +9,9 @@ const Players = () => {
         <>
             <section class="my-5">
                 <div class="h-auto mx-8 lg:mx-28 my-5 flex items-center justify-between">
-                    <div class="w-3/4 flex flex-col gap-2">
-                        <h2 class="text-4xl font-bold">Our Players</h2>
-                        <span class="font-bold">Champions Club</span>
+                    <div class="w-3/4 flex flex-col gap-1 lg:gap-2">
+                        <h2 class="text-3xl lg:text-4xl font-bold">Our Players</h2>
+                        <span class="font-semibold lg:font-bold">Champions Club</span>
                     </div>
                     <div>
                         <button class="border-2 border-green-300 px-3 py-1 rounded-md hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 duration-500 transition-all">

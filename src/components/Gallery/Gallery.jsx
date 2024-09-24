@@ -9,7 +9,7 @@ const Gallery = () => {
             <section class="m-8 lg:m-28">
                 <div class="h-auto my-5 flex items-center justify-between">
                     <div class="w-3/4 flex items-center justify-start gap-5">
-                        <h2 class="text-4xl font-bold">Our Latest Gallery</h2>
+                        <h2 class="text-2xl lg:text-4xl font-bold">Our Latest Gallery</h2>
                     </div>
                     <div>
                         <button class="border-2 border-green-300 px-3 py-1 rounded-md">
@@ -17,8 +17,8 @@ const Gallery = () => {
                         </button>
                     </div>
                 </div>
-                <div class="grid grid-rows-3 grid-cols-3 gap-4">
-                    <div class="row-span-2 w-auto">
+                <div class="grid grid-cols-1 lg:grid-rows-3 lg:grid-cols-3 gap-4">
+                    <div class="lg:row-span-2 w-auto">
                         <img
                             class="w-full h-full rounded-2xl"
                             src={image2}
@@ -32,14 +32,14 @@ const Gallery = () => {
                             alt=""
                         />
                     </div>
-                    <div class="row-span-2 w-auto">
+                    <div class="lg:row-span-2 w-auto">
                         <img
                             class="w-full h-full rounded-2xl"
                             src={image2}
                             alt=""
                         />
                     </div>
-                    <div class="row-span-2 w-auto">
+                    <div class="lg:row-span-2 w-auto">
                         <img
                             class="w-full h-full rounded-2xl"
                             src={image1}
