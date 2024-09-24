@@ -21,7 +21,7 @@ const Players = () => {
                 </div>
                 <div class="mx-8 lg:mx-28 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                     <div>
-                        <div class="relative bg-blue-300">
+                        <div class="relative bg-blue-300 shadow-lg">
                             <img class="h-[350px] w-full" src={image1} alt="" />
                             <div class="absolute bottom-0 bg-green-300 w-full flex flex-col items-center justify-center py-2">
                                 <h3 class="text-xl font-bold">Player Name</h3>
