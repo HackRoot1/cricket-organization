@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/icc-white-logo.svg";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const LinkTab = ({ linkItem, active }) => {
     return (
