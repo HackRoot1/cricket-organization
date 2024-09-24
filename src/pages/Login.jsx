@@ -8,10 +8,10 @@ const Login = () => {
     return (
         <>
             <section className="h-screen w-screen bg-slate-200">
-                <div className="h-full w-full px-5 sm:px-20 py-5 sm:py-10">
+                <div className="h-full w-full px-5 sm:px-20 py-10">
                     <div className="flex h-full w-full">
                         <div className="w-full md:w-1/2 bg-white rounded-2xl md:rounded-s-2xl p-5 sm:p-10">
-                            <div className="flex flex-col md:px-15 lg:px-20 gap-5 md:gap-10">
+                            <div className="h-full flex flex-col justify-between sm:py-20 md:py-0 md:px-15 lg:px-20 gap-10">
                                 <div className="flex flex-col gap-1 sm:gap-3">
                                     <h2 className="text-2xl sm:text-3xl font-bold">
                                         Log in to your Account
