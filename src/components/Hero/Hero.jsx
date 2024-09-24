@@ -1,5 +1,5 @@
-import image1 from "../../assets/carousel-1.svg";
-import image2 from "../../assets/carousel-2.svg";
+import image1 from "../../assets/India-Cricket-WCup-68_1699809986420_1699810043017.avif";
+import image2 from "../../assets/owuigawygwwzwtpydh6f.avif";
 import image3 from "../../assets/carousel-3.svg";
 import image4 from "../../assets/carousel-4.svg";
 import image5 from "../../assets/carousel-5.svg";

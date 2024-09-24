@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/icc-white-logo.svg";
+import { Outlet, Link } from "react-router-dom";
 
 const LinkTab = ({ linkItem, active }) => {
     return (
@@ -17,7 +18,7 @@ const LinkTab = ({ linkItem, active }) => {
 const Navbar = () => {
     return (
         <>
-            <header className="h-[70px] bg-blue-600">
+            <header className="h-[70px] bg-blue-500">
                 <nav className="flex justify-between h-full items-center px-4">
                     <div className="flex justify-center items-center gap-3">
                         <div>
@@ -35,7 +36,17 @@ const Navbar = () => {
                     </div>
 
                     <div className="flex gap-3">
-                        <a
+                        <Link to="/login"
+                            className="text-white bg-white/40 rounded-lg hover:bg-white/20 px-3 py-1  hover:after:w-full duration-200 transition-all"
+                        >
+                            Log In
+                        </Link>
+                        <Link to="/register"
+                            className="text-white bg-white/40 rounded-lg hover:bg-white/20 px-3 py-1  hover:after:w-full duration-200 transition-all"
+                        >
+                            Sign Up
+                        </Link>
+                        {/* <a
                             className="text-white bg-white/40 rounded-lg hover:bg-white/20 px-3 py-1  hover:after:w-full duration-200 transition-all"
                             href="#"
                         >
@@ -46,7 +57,7 @@ const Navbar = () => {
                             href="#"
                         >
                             Sign Up
-                        </a>
+                        </a> */}
                     </div>
                 </nav>
             </header>
