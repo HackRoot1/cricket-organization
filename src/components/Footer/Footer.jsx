@@ -41,166 +41,150 @@ const Footer = () => {
                     </div>
                 </section>
 
-                <section class="mx-8 lg:mx-28 py-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 border-b-2 border-b-slate-600 text-slate-400">
+                <section class="mx-8 lg:mx-28 py-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-14 md:gap-8 border-b-2 border-b-slate-600 text-slate-400">
                     <div>
-                        <h2 class="text-slate-200 text-bold pb-4">
-                            ORGANIZATION
-                        </h2>
+                        <h2 class="text-slate-200 text-bold text-xl pb-4">About</h2>
                         <ul class="flex flex-col gap-3">
                             <li>
-                                {/* <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a> */}
-                                <motion.a
-                                    href="#"
-                                    initial={{ color: "#2162b8" }}
-                                    whileHover={{ color: "#fff" }}
-                                >
-                                    Link 1
-                                </motion.a>
-                            </li>
-                            <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Matches
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Videos
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Stats
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    News
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    Teams
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    Shop
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    Standings
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="text-slate-200 text-bold pb-4">GROUPS</h2>
+                        <h2 class="text-slate-200 text-xl text-bold pb-4">Team</h2>
                         <ul class="flex flex-col gap-3">
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    India
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Belligerents
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    England
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    New Zealand
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    South Africa
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    Sri Lanka
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="text-slate-200 text-bold pb-4">GROUPS</h2>
-                        <ul class="flex flex-col gap-3">
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="text-slate-200 text-bold pb-4">
-                            INTEREST LINKS
+                        <h2 class="text-slate-200 text-xl text-bold pb-4">
+                            Notification
                         </h2>
                         <ul class="flex flex-col gap-3">
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Latest
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Press Release
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="text-slate-200 text-bold pb-4">
-                            ORGANIZATION
-                        </h2>
+                        <h2 class="text-slate-200 text-xl text-bold pb-4">Player</h2>
                         <ul class="flex flex-col gap-3">
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Men
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Women
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 class="text-slate-200 text-bold pb-4">GROUPS</h2>
+                        <h2 class="text-slate-200 text-xl text-bold pb-4">Guidline</h2>
                         <ul class="flex flex-col gap-3">
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Brand And Protection Guidelines
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Match Playing Conditions
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Suspect Action Policy
                                 </a>
                             </li>
                             <li>
                                 <a class="hover:text-slate-500" href="#">
-                                    Link 1
+                                    Governing Policy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-slate-200 text-xl text-bold pb-4">Support</h2>
+                        <ul class="flex flex-col gap-3">
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    Help Center
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:text-slate-500" href="#">
+                                    Privacy & Policy
                                 </a>
                             </li>
                         </ul>
