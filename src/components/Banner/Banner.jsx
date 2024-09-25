@@ -89,9 +89,9 @@ const Banner = () => {
                 </div>
 
                 {/* Pagination Controls */}
-                <div className="flex justify-center mt-4">
+                <div className="flex justify-center items-center mt-4">
                     <button
-                        className={`mx-2 px-4 py-2 rounded ${currentPage === 1 ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500"}`}
+                        className={`px-3 py-2 rounded text-xl custom-shadow ${currentPage === 1 ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-400"}`}
                         onClick={handlePreviousPage}
                         disabled={currentPage === 1}
                     >
@@ -101,7 +101,7 @@ const Banner = () => {
                         Page {currentPage} of {totalPages}
                     </span>
                     <button
-                        className={`mx-2 px-4 py-2 rounded ${currentPage === totalPages ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500"}`}
+                        className={`px-3 py-2 rounded text-xl custom-shadow ${currentPage === totalPages ? "bg-gray-400 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-400"}`}
                         onClick={handleNextPage}
                         disabled={currentPage === totalPages}
                     >
