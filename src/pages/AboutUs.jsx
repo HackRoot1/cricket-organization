@@ -1,15 +1,22 @@
 import React from "react";
-import image from "../../assets/India-Cricket-WCup-68_1699809986420_1699810043017.avif";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
+import Banner from "../components/Banner/Banner";
+import image from "./../assets/India-Cricket-WCup-68_1699809986420_1699810043017.avif";
 
-const About = () => {
+const AboutUs = () => {
     return (
         <>
-            <section>
-                <div class="h-auto mx-28 my-5 flex flex-col items-center justify-center gap-3">
-                    <h2 class="text-4xl font-bold">About Us</h2>
-                    <span class="font-bold">XYZ Organization</span>
-                </div>
+            <Navbar />
+            <Banner
+                title="About Us"
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nobis, amet ipsum illo quisquam magni incidunt ullam!
+                        Nihil, repellendus. Ea aliquam quis nostrum. Autem,
+                        mollitia nihil."
+            />
 
+            <section>
                 <div class="flex flex-col-reverse lg:flex-row gap-2 lg:gap-24 mx-8 lg:mx-28 my-10">
                     <div class="lg:w-1/2 w-full px-3 pt-8 flex flex-col gap-2">
                         <h2 class="text-3xl font-bold">
@@ -41,8 +48,10 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+            <Footer />
         </>
     );
 };
 
-export default About;
+export default AboutUs;
