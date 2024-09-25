@@ -1,8 +1,8 @@
 import image1 from "../../assets/India-Cricket-WCup-68_1699809986420_1699810043017.avif";
 import image2 from "../../assets/owuigawygwwzwtpydh6f.avif";
-import image3 from "../../assets/carousel-3.svg";
-import image4 from "../../assets/carousel-4.svg";
-import image5 from "../../assets/carousel-5.svg";
+import image3 from "../../assets/hero-image3.jpg";
+import image4 from "../../assets/hero-image1.jpg";
+import image5 from "../../assets/hero-image2.webp";
 import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
 
@@ -95,7 +95,7 @@ const Images = ({ imgIndex }) => {
                         style={{
                             backgroundImage: `url(${imgSrc})`,
                             backgroundSize: "cover",
-                            backgroundPosition: "center",
+                            backgroundPosition: "top",
                         }}
                         animate={{
                             scale: imgIndex === idx ? 0.95 : 0.85,

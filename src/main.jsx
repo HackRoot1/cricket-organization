@@ -6,6 +6,7 @@ import "./index.css";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
 import Nopage from "./pages/Nopage.jsx";
+import Gallery from "./pages/Gallery.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")).render(
                 <Route path="/" element={<App />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/gallery" element={<Gallery />} />
                 <Route path="/*" element={<Nopage />} />
             </Routes>
         </BrowserRouter>
