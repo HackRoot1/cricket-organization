@@ -19,19 +19,19 @@ const Matches = () => {
                 </div>
             </div>
 
-            <div className="mx-8 lg:mx-28 flex justify-start gap-3 items-center my-5">
-                <div className="cursor-pointer border-2 px-3 py-1 border-green-700 bg-green-700 text-white duration-200 transition-all">
+            <div className="mx-8 lg:mx-28 flex justify-start gap-1 sm:gap-3 items-center my-5">
+                <div className="cursor-pointer border-2 px-2 sm:px-3 py-1 border-green-700 bg-green-700 text-white duration-200 transition-all">
                     Upcoming
                 </div>
-                <div className="cursor-pointer border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                <div className="cursor-pointer border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                     Live
                 </div>
-                <div className="cursor-pointer border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                <div className="cursor-pointer border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                     Completed
                 </div>
                 <Link
                     to="/tournaments"
-                    class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all"
+                    class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all"
                 >
                     View All
                 </Link>
@@ -59,14 +59,14 @@ const Matches = () => {
                             sorts of indoor sports in the summer.
                         </p>
                     </div>
-                    <div class="flex gap-5">
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                    <div class="flex gap-1 sm:gap-5">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Register Now
                         </button>
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Ticket Booking
                         </button>
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Read More
                         </button>
                     </div>
@@ -94,14 +94,14 @@ const Matches = () => {
                             sorts of indoor sports in the summer.
                         </p>
                     </div>
-                    <div class="flex gap-5">
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                    <div class="flex gap-1 sm:gap-5">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Register Now
                         </button>
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Ticket Booking
                         </button>
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Read More
                         </button>
                     </div>
@@ -129,14 +129,14 @@ const Matches = () => {
                             sorts of indoor sports in the summer.
                         </p>
                     </div>
-                    <div class="flex gap-5">
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                    <div class="flex gap-1 sm:gap-5">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Register Now
                         </button>
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Ticket Booking
                         </button>
-                        <button class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                        <button class="border-2 border-green-300 px-2 sm:px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
                             Read More
                         </button>
                     </div>

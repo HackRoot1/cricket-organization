@@ -28,7 +28,7 @@ const About = () => {
                             corporis quis nisi voluptatem, aut officia excepturi
                             dignissimos laboriosam mollitia tempora corporis
                         </p>
-                        <button class="bg-red-300 px-3 py-1 rounded-full self-end">
+                        <button class="border-2 border-green-300 px-3 py-1 rounded-md self-end">
                             Read More...
                         </button>
                     </div>
