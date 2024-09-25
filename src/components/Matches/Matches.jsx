@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../../assets/owuigawygwwzwtpydh6f.avif";
+import { Link } from "react-router-dom";
 
 const Matches = () => {
     return (
@@ -18,7 +19,25 @@ const Matches = () => {
                 </div>
             </div>
 
-            <div class="flex md:flex-row flex-col gap-10 my-10 mx-8 lg:mx-28">
+            <div className="mx-8 lg:mx-28 flex justify-start gap-3 items-center my-5">
+                <div className="cursor-pointer border-2 px-3 py-1 border-green-700 bg-green-700 text-white duration-200 transition-all">
+                    Upcoming
+                </div>
+                <div className="cursor-pointer border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                    Live
+                </div>
+                <div className="cursor-pointer border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all">
+                    Completed
+                </div>
+                <Link
+                    to="/tournaments"
+                    class="border-2 border-green-300 px-3 py-1 hover:border-green-700 hover:bg-green-700 hover:text-white duration-200 transition-all"
+                >
+                    View All
+                </Link>
+            </div>
+
+            <div class="flex md:flex-row flex-col gap-10 my-10 mx-8 lg:mx-28 pb-5 border-b-2 border-blue-300">
                 <div class="h-[250px] flex justify-center items-center">
                     <img
                         class="h-[250px] w-full md:w-[250px]"
@@ -53,7 +72,7 @@ const Matches = () => {
                     </div>
                 </div>
             </div>
-            <div class="flex md:flex-row flex-col gap-10 my-10 mx-8 lg:mx-28">
+            <div class="flex md:flex-row flex-col gap-10 my-10 mx-8 lg:mx-28 pb-5 border-b-2 border-blue-300">
                 <div class="h-[250px] flex justify-center items-center">
                     <img
                         class="h-[250px] w-full md:w-[250px]"
@@ -88,7 +107,7 @@ const Matches = () => {
                     </div>
                 </div>
             </div>
-            <div class="flex md:flex-row flex-col gap-10 my-10 mx-8 lg:mx-28">
+            <div class="flex md:flex-row flex-col gap-10 my-10 mx-8 lg:mx-28 pb-5 border-b-2 border-blue-300">
                 <div class="h-[250px] flex justify-center items-center">
                     <img
                         class="h-[250px] w-full md:w-[250px]"

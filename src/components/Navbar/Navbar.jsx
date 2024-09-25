@@ -49,7 +49,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         className="absolute left-1/2 top-12 bg-white text-black z-20 rounded-3xl"
                     >
-                        <FlyoutContent />
+                        <FlyoutContent href={href} />
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -57,18 +57,18 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
     );
 };
 
-const TournamentsDropdownContent = () => {
+const TournamentsDropdownContent = ({href}) => {
     return (
         <div className="z-20 w-64 bg-white p-6 rounded-3xl shadow-xl">
             <div className="mb-1 space-y-2">
-                <a href="#" className="block py-1 px-2 rounded-md text-sm hover:bg-slate-300">
-                    Link 1
+                <a href={href} className="block py-1 px-2 rounded-md text-sm hover:bg-slate-300">
+                    Upcoming
                 </a>
-                <a href="#" className="block py-1 px-2 rounded-md text-sm hover:bg-slate-300">
-                    Link 2
+                <a href={href} className="block py-1 px-2 rounded-md text-sm hover:bg-slate-300">
+                    Live
                 </a>
-                <a href="#" className="block py-1 px-2 rounded-md text-sm hover:bg-slate-300">
-                    Link 3
+                <a href={href} className="block py-1 px-2 rounded-md text-sm hover:bg-slate-300">
+                    Completed
                 </a>
             </div>
         </div>

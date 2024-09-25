@@ -8,6 +8,7 @@ import Register from "./pages/Register.jsx";
 import Nopage from "./pages/Nopage.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
+import Tournaments from "./pages/Tournaments.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")).render(
                 <Route path="/register" element={<Register />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/tournaments" element={<Tournaments />} />
                 <Route path="/*" element={<Nopage />} />
             </Routes>
         </BrowserRouter>
