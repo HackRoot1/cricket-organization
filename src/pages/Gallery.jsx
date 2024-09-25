@@ -34,7 +34,6 @@ const itemsPerPage = 6;
 
 const Gallery = () => {
     const [currentPage, setCurrentPage] = useState(1);
-
     const totalPages = Math.ceil(images.length / itemsPerPage);
 
     const handleNextPage = () => {
@@ -74,21 +73,27 @@ const Gallery = () => {
 
                 {/* Display the images based on the current page */}
                 <div className="grid grid-cols-1 lg:grid-rows-2 lg:grid-cols-3 gap-4">
-                    {currentImages.map((img, index) => (
-                        <div key={index} className="w-auto">
-                            <img
-                                className="w-full h-full rounded-2xl"
-                                src={img}
-                                alt=""
-                            />
-                        </div>
-                    ))}
+                    {currentImages.length > 0 ? (
+                        currentImages.map((img, index) => (
+                            <div key={index} className="w-auto">
+                                <img
+                                    className="w-full h-full rounded-2xl object-cover"
+                                    src={img}
+                                    alt={`Gallery image ${
+                                        startIndex + index + 1
+                                    }`}
+                                />
+                            </div>
+                        ))
+                    ) : (
+                        <p>No images available</p>
+                    )}
                 </div>
 
                 {/* Pagination Controls */}
                 <div className="flex justify-center items-center mt-4">
                     <button
-                        className={`px-3 py-2 rounded text-xl custom-shadow ${
+                        className={`flex items-center px-3 py-2 rounded text-xl custom-shadow ${
                             currentPage === 1
                                 ? "bg-gray-400 cursor-not-allowed"
                                 : "bg-blue-500 hover:bg-blue-400"
@@ -102,7 +107,7 @@ const Gallery = () => {
                         Page {currentPage} of {totalPages}
                     </span>
                     <button
-                        className={`px-3 py-2 rounded text-xl custom-shadow ${
+                        className={`flex items-center px-3 py-2 rounded text-xl custom-shadow ${
                             currentPage === totalPages
                                 ? "bg-gray-400 cursor-not-allowed"
                                 : "bg-blue-500 hover:bg-blue-400"

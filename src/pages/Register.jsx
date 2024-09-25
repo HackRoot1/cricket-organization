@@ -31,10 +31,36 @@ const Register = () => {
     const prevStep = () => setStep((prevStep) => prevStep - 1);
 
     // Handle form submission
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formData);
-        alert("Form submitted successfully!");
+        if (formData.password !== formData.confirmPassword) {
+            alert("Passwords do not match!");
+            return;
+        }
+
+        try {
+            const response = await fetch(
+                "https://jsonplaceholder.typicode.com/posts",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(formData),
+                }
+            );
+
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+
+            const data = await response.json();
+            console.log("Success:", data);
+            alert("Form submitted successfully!");
+        } catch (error) {
+            console.error("Error:", error);
+            alert("There was an error submitting the form.");
+        }
     };
 
     return (
@@ -123,7 +149,7 @@ const Register = () => {
                                         </div>
                                         <div className="flex flex-col gap-2">
                                             <label
-                                                htmlFor="lastName"
+                                                htmlFor="phone"
                                                 className="font-semibold"
                                             >
                                                 Phone

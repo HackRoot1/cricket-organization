@@ -17,12 +17,12 @@ const AboutUs = () => {
             />
 
             <section>
-                <div class="flex flex-col-reverse lg:flex-row gap-2 lg:gap-24 mx-8 lg:mx-28 my-10">
-                    <div class="lg:w-1/2 w-full px-3 pt-8 flex flex-col gap-2">
-                        <h2 class="text-3xl font-bold">
+                <div className="flex flex-col-reverse lg:flex-row gap-2 lg:gap-24 mx-8 lg:mx-28 my-10">
+                    <div className="lg:w-1/2 w-full px-3 pt-8 flex flex-col gap-2">
+                        <h2 className="text-3xl font-bold">
                             United by Passion, Winning Together
                         </h2>
-                        <p class="text-justify">
+                        <p className="text-justify">
                             Lorem ipsum, dolor sit amet consectetur adipisicing
                             elit. Iusto cum hic consequuntur, et in earum
                             consequatur ipsam ab dignissimos. Recusandae
@@ -35,15 +35,15 @@ const AboutUs = () => {
                             corporis quis nisi voluptatem, aut officia excepturi
                             dignissimos laboriosam mollitia tempora corporis
                         </p>
-                        <button class="bg-red-300 px-3 py-1 rounded-full self-end">
+                        <button className="bg-red-300 px-3 py-1 rounded-full self-end hover:bg-red-400 transition-colors duration-300">
                             Read More...
                         </button>
                     </div>
-                    <div class="lg:w-1/2 w-full">
+                    <div className="lg:w-1/2 w-full">
                         <img
-                            class="w-full rounded-md"
+                            className="w-full rounded-md object-cover"
                             src={image}
-                            alt="Image"
+                            alt="United by Passion, Winning Together"
                         />
                     </div>
                 </div>
