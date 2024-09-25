@@ -45,15 +45,11 @@ To set up the Vite + React project on your local machine, follow these steps:
 
 3. **Install Dependencies:**
 
-Run the following command to install the necessary packages:
-
     ```bash
     npm install
     ```
 
 4. **Running the Development Server:**
-
-To start the development server, use the following command:
 
     ```bash
     npm run dev
