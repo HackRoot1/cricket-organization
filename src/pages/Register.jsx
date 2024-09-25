@@ -64,8 +64,8 @@ const Register = () => {
     };
 
     return (
-        <section className="h-screen w-screen bg-slate-200">
-            <div className="h-full w-full px-5 sm:px-20 py-10">
+        <section className="h-svh w-screen flex items-center justify-center bg-slate-200">
+            <div className="h-3/4 sm:h-full w-full px-5 sm:px-20 py-10">
                 <div className="flex h-full w-full">
                     {/* Registration Form */}
                     <div className="w-full md:w-1/2 bg-white rounded-2xl md:rounded-s-2xl p-5 sm:p-10">
