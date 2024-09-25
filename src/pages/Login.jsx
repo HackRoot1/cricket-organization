@@ -17,7 +17,7 @@ const Login = () => {
 
     return (
         <section className="h-svh w-screen flex items-center justify-center bg-slate-200">
-            <div className="h-3/4 sm:h-full w-full px-5 sm:px-20 py-10">
+            <div className="h-4/5 sm:h-full w-full px-5 sm:px-20 py-10">
                 <div className="flex h-full w-full">
                     <div className="w-full md:w-1/2 bg-white rounded-2xl md:rounded-s-2xl p-5 sm:p-10">
                         <div className="h-full flex flex-col justify-between sm:py-20 md:py-0 md:px-15 lg:px-20 gap-10">
