@@ -261,7 +261,7 @@ const Register = () => {
 
 // Social Login Button Component
 const SocialLoginButton = ({ icon, label }) => (
-    <div className="cursor-pointer flex items-center justify-center gap-3 border-2 border-slate-300 py-1 px-2 sm:px-3 lg:px-5 rounded-full sm:rounded-lg h-[40px] w-[40px] sm:h-auto sm:w-full">
+    <div className="cursor-pointer flex items-center justify-center gap-3 border-2 border-slate-300 py-1 px-2 sm:px-3 lg:px-5 rounded-full sm:rounded-lg h-[40px] w-[40px] sm:h-auto sm:w-full md:hover:-translate-y-2 duration-200 transition-all">
         <span className="text-xl md:text-2xl">{icon}</span>
         <span className="hidden sm:inline-block text-black font-bold text-xl">
             {label}
