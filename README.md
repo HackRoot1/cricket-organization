@@ -21,20 +21,10 @@ This project is set up using **Vite** and **React** for fast and efficient web d
 To set up the Vite + React project on your local machine, follow these steps:
 
 1. **Clone the Repository:**
+
     ```
     git clone https://github.com/HackRoot1/cricket-organization.git
     ```
-
-## Usage
-
-Follow these steps to set up and run the Job Portal Project (PHP) locally:
-
-1. **Clone the Repository:**
-
-    - Clone the repository to your local machine using the following command:
-        ```
-        git clone https://github.com/HackRoot1/job_portal_project.git
-        ```
 
 2. **Navigate into the Project Directory:**
 
@@ -44,7 +34,7 @@ Follow these steps to set up and run the Job Portal Project (PHP) locally:
 
 3. **Install Dependencies:**
 
-    - Run the following command to install the necessary packages
+Run the following command to install the necessary packages
 
     ```
      npm install
@@ -52,7 +42,7 @@ Follow these steps to set up and run the Job Portal Project (PHP) locally:
 
 4. **Running the Development Server:**
 
-    - To start the development server, use the following command:
+To start the development server, use the following command:
 
     ```
     npm run dev
